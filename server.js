@@ -1,7 +1,7 @@
 const production = process.env.NODE_ENV === 'production';
-const clientUrl = production ? 'realsite.com' : 'http://localhost:1234';
+const clientUrl = production ? 'https://brave-kirch-002ad0.netlify.app' : 'http://localhost:1234';
 
-const io = require('socket.io')(3000, {
+const io = require('socket.io')((process.env.PORT || 3000), {
   cors: {
     origin: clientUrl,
   },
