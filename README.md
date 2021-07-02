@@ -14,11 +14,11 @@
 
 ## General info
 
-The backend part of the Pictionary clone app with multiplayer.
+The backend part of the Pictionary clone app with multiplayer. The backend server uses socket.io for the communication between server and clients. 
 
 ## Screenshots
 
-![Screenshot]()
+![pictionary-clone](https://user-images.githubusercontent.com/57517804/124240464-59c54f80-db4d-11eb-8574-ee3f27299033.jpg)
 [Demo](https://brave-kirch-002ad0.netlify.app)
 
 ## Technologies
